@@ -1,30 +1,12 @@
-#field1, #leg1 {
+#identity, #identity legend {
     background-color: rgb(18, 105, 156);
 }
-#field2, #leg2 {
+#delivery, #delivery legend {
     background-color: rgb(151, 20, 155);
 }
-#field3, #leg3 {
+#payment, #payment legend {
     background-color: rgb(225, 1, 81);
 }
-.divradio {
-    padding-left: 45px;
-}
-#pcarte {
-    margin-bottom: 0px;
-}
-button {
-    margin-top: 5px;
-    font-size: 15px;
-    padding: 3px;
-}
-input {
-    margin-bottom: 5px;
-    font-size: 13px;
-}
-label, p, li, legend {
-    font-size: 20px;
-}
-legend {
-    margin-left: 5px;
+ul li {
+    list-style: none;
 }

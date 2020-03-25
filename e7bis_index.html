@@ -6,9 +6,9 @@
         <link type="text/css" rel="stylesheet" href="e7bis_style.css" />
     </head>
     <body>
-        <fieldset id="field1">
-            <legend id="leg1">Votre identité</legend>
-                <form>
+        <form>
+            <fieldset id="identity">
+                <legend>Votre identité</legend>
                     <ol>
                         <li><label for="name">Nom :</label>
                         <input type="text" name="name" id="name" placeholder="Nom" /></li>
@@ -17,11 +17,9 @@
                         <li><label for="mail">Adresse mail :</label>
                         <input type="email" name="mail" id="mail" placeholder="Adresse mail" /></li>
                     </ol>
-                </form>
-        </fieldset>
-        <fieldset id="field2">
-            <legend id="leg2">Adresse de livraison</legend>
-                <form>
+            </fieldset>
+            <fieldset id="delivery">
+                <legend>Adresse de livraison</legend>
                     <ol>
                         <li><label for="adresse">Adresse :</label>
                         <textarea type="text" name="adresse" id="adresse" rows="5"></textarea></li>
@@ -30,21 +28,20 @@
                         <li><label for="ville">Ville :</label>
                         <input type="text" name="ville" id="ville" placeholder="Ville" /></li>
                     </ol>
-                </form>
-        </fieldset>
-        <fieldset id="field3">
-            <legend id="leg3">Informations de réglement</legend>
-                <form>
+            </fieldset>
+            <fieldset id="payment">
+                <legend>Informations de réglement</legend>
                     <ol>
-                        <li><p id="pcarte">Type de carte bancaire :</p></li>
-                        <div class="divradio">
+                        <li>Type de carte bancaire :
+                            <ul>
                             <input type="radio" name="cartetype" id="cartetype1" />
                             <label for="cartetype1">VISA</label>
-                        </div>
-                        <div class="divradio">
+                        </ul>
+                        <ul>
                             <input type="radio" name="cartetype" id="cartetype2" />
                             <label for="cartetype2">Mastercard</label>
-                        </div>
+                    </ul>
+                        </li>
                         <li><label for="num">Numéro de carte :</label>
                         <input type="text" name="num" id="num" placeholder="Numéro de carte" /></li>
                         <li><label for="code">Code de sécurité :</label>
@@ -52,8 +49,8 @@
                         <li><label for="titulaire">Nom du titulaire :</label>
                         <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" /></li>
                     </ol>
-                </form>
-        </fieldset>
-        <button type="submit">j'achéte !</button>
+            </fieldset>
+            <input type="submit" name="buy" value="j'achete" />
+        </form>
     </body>
 </html>
