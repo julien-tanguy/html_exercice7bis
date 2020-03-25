@@ -22,10 +22,9 @@ input {
     margin-bottom: 5px;
     font-size: 13px;
 }
-label, p, li {
+label, p, li, legend {
     font-size: 20px;
 }
 legend {
-    font-size: 20px;
     margin-left: 5px;
 }
