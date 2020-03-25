@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exercice 7bis</title>
+        <link type="text/css" rel="stylesheet" href="e7bis_style.css" />
+    </head>
+    <body>
+        <div>
+            <p class="titleDiv1">Votre identité</p>
+        </div>
+        <div id="form1">
+            <form id="identité" >
+                <ol>
+                    <div>
+                        <li><label for="name">Nom :</label>
+                        <input type="text" name="name" id="name" placeholder="Nom" /></li>
+                    </div>
+                    <div>
+                        <li><label for="first-name">Prénom :</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Prénom" /></li>
+                    </div>
+                    <div>
+                        <li><label for="mail">Adresse mail :</label>
+                        <input type="email" name="mail" id="mail" placeholder="Adresse mail" /></li>
+                    </div>
+                </ol>
+            </form>
+        </div>
+        <div>
+            <p class="titleDiv2">Adresse de livraison</p>
+        </div>
+        <div id="form2">
+            <form id="livraison" >
+                <ol>
+                    <div>
+                        <li><label for="adresse">Adresse :</label>
+                        <textarea type="text" name="adresse" id="adresse" rows="5"></textarea></li>
+                    </div>
+                    <div>
+                        <li><label for="codepost">Code postal :</label>
+                        <input type="text" name="codepost" id="codepost" placeholder="Code postal" /></li>
+                    </div>
+                    <div>
+                        <li><label for="ville">Ville :</label>
+                        <input type="text" name="ville" id="ville" placeholder="Ville" /></li>
+                    </div>
+                </ol>
+            </form>
+        </div>
+        <div>
+            <p class="titleDiv3">Informations de réglement</p>
+        </div>
+        <div id="form3">
+            <form id="paiement">
+                <ol>
+                    <li><p class="pcarte">Type de carte bancaire :</p></li>
+                    <div class="divradio">
+                        <input type="radio" name="cartetype" id="cartetype1" />
+                        <label for="cartetype1">VISA</label>
+                    </div>
+                    <div class="divradio">
+                        <input type="radio" name="cartetype" id="cartetype2" />
+                        <label for="cartetype2">Mastercard</label>
+                    </div>
+                    <div>
+                        <li><label for="num">Numéro de carte :</label>
+                        <input type="text" name="num" id="num" placeholder="Numéro de carte" /></li>
+                    </div>
+                    <div>
+                        <li><label for="code">Code de sécurité :</label>
+                        <input type="text" name="code" id="code" placeholder="Code de sécurité" /></li>
+                    </div>
+                    <div>
+                        <li><label for="titulaire">Nom du titulaire :</label>
+                        <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" /></li>
+                    </div>
+                </ol>
+            </form>
+        </div>
+        <div>
+            <button type="submit">j'achéte !</button>
+        </div>
+    </body>
+</html>
